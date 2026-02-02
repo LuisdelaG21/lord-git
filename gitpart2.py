@@ -1,1 +1,1 @@
-print("Morty soy tu abuelo Rick!")
+print("Hola Morty!")
