@@ -105,8 +105,8 @@ Estas reglas son inclusiones de GitHub para que los desarrolladores puedan agreg
 ### Lista to-do
 
 * [x] task 1
-* [] task 1
-* [] task 1
+* [ ] task 1
+* [ ] task 1
 * [x] task 1
 
 ### Mencionar a un colaborador
@@ -118,7 +118,9 @@ Usando @ se puede hacer mención de un colaborador. Esto hará que reciba una no
 Puedes buscar el sitio oficial de emojis de **GitHub** y usar los caracteres propios de un emoji en específico (empiezan y terminan con :).
 Ejemplos:
 
-:smyle:    :+1:
+😃:    :+1:
+
+[Lista de emojis md](https://gist.github.com/rxaviers/7360908 "Enlace al sitio web")
 
 ## Lista de recursos útilizables en Markdown
 [Sintaxis de Markdown](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet "Enlace al sitio web")
