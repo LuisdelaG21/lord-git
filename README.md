@@ -1,16 +1,18 @@
 <!--Esto es un comentatario en markdown-->
-# Lord Git
+# Lord Git 
 ## **Reglas estándar de markdown**
 #### Esto es un archivo markdown (.md)
 
 <!--Modificaciones de estilo de fuente-->
 ## Modificaciones de estilo de fuente
-<!--Itálica-->
-This is my *first* text 
-<!--Negrita-->
-This is my **first** text
+<!--Énfasis: Itálica-->
+This is my *first* _text_ <!--Dos formas * o _ bajo-->
+<!--´´Enfasis fuerte: Negrita-->
+This is my **first** __text__ <!--Dos formas ** o __ bajo-->
+<!--Énfasis combinado-->
+This is my **first _text_** <!--Negritas y cursiva-->
 <!--Tachado-->
-This is my ~~first~~ text
+This is my ~~first~~ text <!--Dos formas * o _ bajo-->
 
 ## Listas
 Desordenada **UL**
@@ -25,7 +27,7 @@ Desordenada **UL**
 Ordenada **OL**
 
 1. First
-    * Levantarse
+    1. Despertar
 2. Second
     * Comer
 3. Third
