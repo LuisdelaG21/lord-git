@@ -153,6 +153,11 @@ Imagen usando referencia
 
 [logo]: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "Logotipo Git"
 
+
+Imagen usando HTML
+
+<img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2025/03/11/President-Loki-Marvel-Rivals.jpg" alt="Loki presidente" width="300" title="best support" border="2" />
+
 ## **Reglas exclusivas para GitHub**
 Estas reglas son inclusiones de GitHub para que los desarrolladores puedan agregar otros recursos útiles en la documentación de sus proyectos.
 
