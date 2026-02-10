@@ -86,11 +86,14 @@ Las referencias se colocarán al final de este archivo
 > Esto es otra cita
 
 ## Lineas de división
-Linea formada con --- (3)
+Linea formada con --- (3+)
 ___
 
-Linea formada con ___ (3)
+Linea formada con ___ (3+)
 ___
+
+Lineas formadas con *** (3+)
+***
 
 ## Bloques de código
 Individual o pequeño ``
@@ -164,6 +167,46 @@ Estas reglas son inclusiones de GitHub para que los desarrolladores puedan agreg
 Usando @ se puede hacer mención de un colaborador. Esto hará que reciba una notificación.
 
 @LuisdelaG21
+
+## Html en línea
+También puedes usar HTML sin formato en tu Markdown y, en general, funcionará bastante bien.
+
+<dl>
+  <dt>Definición de lista</dt>
+  <dd>Es una cosa que las personas usan a menudo.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+## Videos de YouTube
+No se pueden agregar directamente, pero puedes agregar una imagen con un enlace al video como este:
+
+ **Recurso de HTML**
+
+<a href="https://youtu.be/Rbo81UB8eQQ?si=IK0PutBzGbHGsQA5
+" target="_blank"><img src="https://img.youtube.com/vi/Rbo81UB8eQQ/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+* href = link del video
++ target = _blank, indica que se debe abrir una pestaña nueva para mostrar el video
+- src = link del frame inicial del video, generalmente solo cambian los números del final
+* alt = título de la imagen 
++ width, height y border son propiedades de ancho, alto y borde la imagen respectivamente.
+
+**Otra manera más usada de agregar un enlace a un video:**
+
+**Markdown puro**
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Rbo81UB8eQQ/0.jpg)](https://youtu.be/Rbo81UB8eQQ?si=IK0PutBzGbHGsQA5)
+
+Funciona similar a las imagenes importadas, solo que esta vez agregamos un par más de corchetes para agregar un link a un video.
+
+* Los corchetes [muestran el título de la imagen].
++ El primer paréntesis contiene el enlace a la imagen
+- El segundo paréntesis contiene el enlace al video.
+
+Este método tiene la desventaja que pierde el tamaño y el borde de la imagen.
 
 ## Emojis
 Puedes buscar el sitio oficial de emojis de **GitHub** y usar los caracteres propios de un emoji en específico (empiezan y terminan con :).
