@@ -159,7 +159,7 @@ Imagen usando HTML
 <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2025/03/11/President-Loki-Marvel-Rivals.jpg" alt="Loki presidente" width="300" title="best support" border="2" />
 
 ## **Reglas exclusivas para GitHub**
-Estas reglas son inclusiones de GitHub para que los desarrolladores puedan agregar otros recursos útiles en la documentación de sus proyectos.
+Estas reglas son inclusiones de GitHub GMF para que los desarrolladores puedan agregar otros recursos útiles en la documentación de sus proyectos.
 
 ### Lista to-do
 
@@ -174,7 +174,8 @@ Usando @ se puede hacer mención de un colaborador. Esto hará que reciba una no
 @LuisdelaG21
 
 ## Html en línea
-También puedes usar HTML sin formato en tu Markdown y, en general, funcionará bastante bien.
+También puedes usar HTML sin formato en tu Markdown y, en general, funcionará bastante bien.  
+Ejemplo de lista descriptiva en HTML.
 
 <dl>
   <dt>Definición de lista</dt>
@@ -184,10 +185,16 @@ También puedes usar HTML sin formato en tu Markdown y, en general, funcionará 
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
+<!--
+<dl> (Description List): Contenedor principal de la lista.
+<dt> (Description Term): Define el término o nombre a explicar.
+<dd> (Description Definition): Proporciona la descripción o valor correspondiente al término. 
+-->
+
 ## Videos de YouTube
 No se pueden agregar directamente, pero puedes agregar una imagen con un enlace al video como este:
 
- **Recurso de HTML**
+ **Recurso HTML**
 
 <a href="https://youtu.be/Rbo81UB8eQQ?si=IK0PutBzGbHGsQA5
 " target="_blank"><img src="https://img.youtube.com/vi/Rbo81UB8eQQ/0.jpg"
@@ -205,13 +212,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Rbo81UB8eQQ/0.jpg)](https://youtu.be/Rbo81UB8eQQ?si=IK0PutBzGbHGsQA5)
 
-Funciona similar a las imagenes importadas, solo que esta vez agregamos un par más de corchetes para agregar un link a un video.
+Funciona similar a las imagenes importadas, solo que esta vez agregamos un par de corchetes extras para agregar un link a un video.
 
 * Los corchetes [muestran el título de la imagen].
 + El primer paréntesis contiene el enlace a la imagen
 - El segundo paréntesis contiene el enlace al video.
 
-Este método tiene la desventaja que pierde el tamaño y el borde de la imagen.
+Este método tiene la desventaja que pierde el tamaño y el borde de la imagen, poco personalizable.
 
 ## Emojis
 Puedes buscar el sitio oficial de emojis de **GitHub** y usar los caracteres propios de un emoji en específico (empiezan y terminan con :).
@@ -246,4 +253,4 @@ También puedes usa palabras para adaptarse mejor a su estilo de escritura[^flag
 como prefijo para hacer un salto de línea corto.
 
 [^flag]: Las notas al pie con nombre se seguirán  
-representando con números en lugar d texto.
+representando con números en lugar de texto.
