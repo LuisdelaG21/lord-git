@@ -1,5 +1,1 @@
-print("New Hello Git v3!")
-print("Luis estuvo aquí")
-print("Hello GitHub")
-print("Comenzaremos a dar avances a este proyecto")
-print("Nueva sentencia")
+print("Esto será un blog personal próximamente")
